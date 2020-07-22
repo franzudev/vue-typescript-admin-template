@@ -171,5 +171,8 @@ export default {
     showSidebarLogo: '显示侧边栏 Logo',
     fixedHeader: '固定 Header',
     sidebarTextTheme: '侧边栏文字主题色'
+  },
+  toasts: {
+    switchLanguage: 'Switch Language Success'
   }
 }

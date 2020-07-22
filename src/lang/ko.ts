@@ -171,5 +171,8 @@ export default {
     showSidebarLogo: '사이드 메뉴 로고',
     fixedHeader: '헤더 고정',
     sidebarTextTheme: '사이드 메뉴 글꼴 테마'
+  },
+  toasts: {
+    switchLanguage: 'Switch Language Success'
   }
 }

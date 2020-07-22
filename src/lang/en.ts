@@ -171,5 +171,8 @@ export default {
     showSidebarLogo: 'Sidebar Logo',
     fixedHeader: 'Fixed Header',
     sidebarTextTheme: 'Sidebar Text Theme'
+  },
+  toasts: {
+    switchLanguage: 'Switch Language Success'
   }
 }

@@ -63,11 +63,15 @@ export default class extends Vue {
     return AppModule.language
   }
 
+  get switchMessage() {
+    return this.$t('toasts.switchLanguage').toString()
+  }
+
   private handleSetLanguage(lang: string) {
     this.$i18n.locale = lang
     AppModule.SetLanguage(lang)
     this.$message({
-      message: 'Switch Language Success',
+      message: this.switchMessage,
       type: 'success'
     })
   }
